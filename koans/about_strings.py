@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from re import T
 from runner.koan import *
 
 class AboutStrings(Koan):
@@ -61,7 +62,7 @@ world!
 
     def test_plus_concatenates_strings(self):
         string = "Hello, " + "world"
-        self.assertEqual(__, string)
+        self.assertEqual(True, string)
 
     def test_adjacent_strings_are_concatenated_automatically(self):
         string = "Hello" ", " "world"

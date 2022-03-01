@@ -34,7 +34,7 @@ class AboutStringManipulation(Koan):
         self.assertEqual('a', string[1])
 
     def test_single_characters_can_be_represented_by_integers(self):
-        self.assertEqual(__, ord('a'))
+        self.assertEqual(97, ord('a'))
         self.assertEqual(__, ord('b') == (ord('a') + 1))
 
     def test_strings_can_be_split(self):

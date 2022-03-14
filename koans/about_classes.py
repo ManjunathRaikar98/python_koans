@@ -164,5 +164,5 @@ class AboutClasses(Koan):
         self.assertEqual('[1, 2, 3]', str(seq))
         self.assertEqual('[1, 2, 3]', repr(seq))
 
-        self.assertEqual(__, str("STRING"))
-        self.assertEqual(__, repr("STRING"))
+        self.assertEqual('STRING', str("STRING"))
+        self.assertEqual("'STRING'", repr("STRING"))
